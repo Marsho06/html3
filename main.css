@@ -24,8 +24,8 @@ header{ width: 800px;
 
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 30% 40%;
-  grid-template-rows: 25% 40% 50%;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 25% 40% 35%;
   gap: 3% 5%;
 	background-color: aqua;
 
