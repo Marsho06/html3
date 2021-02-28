@@ -24,13 +24,19 @@ header{ width: 800px;
 
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 40% 40%;
-  grid-template-rows: 40% 40% 40%;
+  grid-template-columns: 300px 400px 400px;
+  grid-template-rows: 400px 400px 400px;
   gap: 3% 5%;
 	background-color: aqua;
 
 }
-
+.grid-item {
+  background-color: rgba(200, 200, 200, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
 
 @media screen 
   and (min-width: 360px) 
